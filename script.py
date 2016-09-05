@@ -32,7 +32,7 @@ time.sleep(3)
 
 right(0.7)
 
-time.sleep(1)
+time.sleep(3)
 
 right(1)
 
