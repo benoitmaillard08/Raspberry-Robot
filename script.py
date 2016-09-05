@@ -11,10 +11,10 @@ def bk(speed=1):
 
 
 def right(angle, speed=1):
-	rr.set_motors(speed, 1, speed * (1-angle), 1)
+	rr.set_motors(speed * (1-angle), 0, speed, 0)
 
 def left(angle, speed=1):
-	rr.set_motors(speed * (1-angle), 1, speed, 1)
+	rr.set_motors(speed, 0, speed * (1-angle), 0)
 
 
 
